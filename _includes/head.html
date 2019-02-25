@@ -1,0 +1,25 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+    <title>{% if page.use-site-title %}{{ site.title }}{{ site.title-separator }} {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="author" content="{{ site.author.name }}"/>
+
+    {% if page.googlefonts %}
+        {% for font in page.googlefonts %}
+          <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
+        {% endfor %}
+    {% endif %}
+
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://unpkg.com/simple-jekyll-search@1.5.0/dest/simple-jekyll-search.min.js"></script>
+    <script>
+        SimpleJekyllSearch({
+          searchInput: document.getElementById('search-input'),
+          resultsContainer: document.getElementById('results-container'),
+          json: '/assets/search.json',
+          searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>'
+    })
+    </script>
+</head>

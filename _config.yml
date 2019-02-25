@@ -1,0 +1,41 @@
+
+author: 
+  name: K. Bodie Weedop
+
+# url: "https://bweedop.github.io/"
+# baseurl: "/jekyll-science"
+
+title: Lab Notebook
+
+logo: half.png
+
+googlefonts: Roboto
+
+text-color: #000000
+top-navbar-color: #F5F5F5
+top-navbar-link-color: #000000
+footer-color: #000000
+footer-link-color: #FFFFFF
+
+sass:
+  sass_dir: _sass
+
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

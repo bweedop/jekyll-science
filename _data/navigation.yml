@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: Research
+  link: /research.html
+- name: Lab Notebook
+  link: /notebook.html
+- name: Lab Members
+  link: /lab-members.html
+
+
