@@ -3,11 +3,7 @@ author:
   name: K. Bodie Weedop
 
 url: "https://bweedop.github.io"
-<<<<<<< HEAD
 baseurl: "/jekyll-science"
-=======
-baseurl: "jekyll-science"
->>>>>>> a97d475a25669f0b6a7cba26749694b673a1f9ae
 
 title: Lab Notebook
 
