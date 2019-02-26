@@ -6,7 +6,6 @@ title: Lab Notebook
 <h1>Lab Notebook</h1>
 
 <ul>
-    <input type="test" class="search-posts" placeholder="Search posts...">
     {% for post in site.posts %}
     {% assign author = site.authors | where: 'short_name', page.author | first %}
     <li>
