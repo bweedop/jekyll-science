@@ -1,8 +1,8 @@
-<header>
+<header {% if site.top-navbar-color %}style="background-color: {{ site.top-navbar-color }}"{% endif %}}>
     {% if site.logo %}
     <a href="{{ site.url }}{{ site.baseurl }}"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ site.logo }}"></a>
     {% else %}
-        <a href="{{ site.url }}">{{ site.title }}</a>
+        <a href="{{ site.url }}"><h1>{{ site.title }}</h1></a>
     {% endif %}
     {% include navigation.html %}
 </header>
