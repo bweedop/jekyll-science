@@ -13,6 +13,3 @@ great idea but many Jekyll themes are oriented more so towards blogging and
 personal websites
 
 ## We use this site to document our progress on our projects and research
-
-You can search through our lab notebook entries using the search bar at the top
-of each page 

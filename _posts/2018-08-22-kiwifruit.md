@@ -1,6 +1,7 @@
 ---
 layout: post
-author: rick
+title: Kiwifruit
+author: Rick Sanchez
 tags: kiwifruit fruit
 ---
 

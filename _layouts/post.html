@@ -5,7 +5,7 @@ layout: default
 
 <p>
   {{ page.date | date_to_string }}
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
+  {% assign author = site.authors | where: 'name', page.author | first %}
   {% if author %}
     - <a href="{{ site.baseurl }}{{ author.url }}">{{ author.name }}</a>
   {% endif %}
@@ -14,7 +14,7 @@ layout: default
 <span>[
     {% for tag in page.tags %}
       {% capture tag_name %}{{ tag }}{% endcapture %}
-      <a href="{{ site.baseurl }}/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+      <a href="{{ site.baseurl }}/tags.html#{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
     {% endfor %}
 ]</span>
 

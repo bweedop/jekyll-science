@@ -1,5 +1,5 @@
 ---
-short_name: Rick
+short_name: rick
 name: Rick Sanchez
 position: Head Scientist
 image: rick.jpg

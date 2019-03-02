@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 20190223
-author: rick
+title: Bananas
+author: Rick Sanchez
 tags: banana fruit
 ---
 
